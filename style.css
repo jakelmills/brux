@@ -21,6 +21,7 @@ header {
   z-index: 1;
   padding: 0 48px;
   height: 64px;
+  transition: background-color 1s ease;
 }
 
 header h1, header nav {
@@ -33,6 +34,10 @@ header nav {
 
 header a {
   margin-left: 16px;
+}
+
+header.scrolled {
+  background-color: #fff;
 }
 
 h1 {
